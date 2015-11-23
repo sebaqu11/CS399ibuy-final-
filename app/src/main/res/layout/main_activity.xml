@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#EFEBE9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:id="@+id/header"
+        >
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter item"
+            android:layout_weight="3"
+            android:inputType="text"
+            android:imeOptions="actionNext"
+            android:id="@+id/item_name"
+            android:background="#BCAAA4"
+            android:textColor="#795548" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Qty"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:imeOptions="actionDone"
+            android:id="@+id/item_qty"
+            android:background="#BCAAA4"
+            android:textColor="#795548" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:id="@+id/additem"
+            android:layout_weight="1"
+            android:background="#EFEBE9"
+            android:textColor="#795548" />
+
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/item_list"
+        android:background="#D7CCC8"
+        android:layout_below="@+id/header"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:id="@+id/share"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#006a9dff"
+        android:textColor="#795548" />
+
+</RelativeLayout>

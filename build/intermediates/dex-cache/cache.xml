@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\SeanB\Documents\GitHub\cs399ibuy\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\SeanB\Documents\GitHub\cs399ibuy\app\build\intermediates\pre-dexed\debug\classes-8d48386211bbd689bb11de477a8e7570d8f8e472.jar" />
+    </item>
+    <item
+        jar="C:\Users\SeanB\Documents\GitHub\cs399ibuy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\SeanB\Documents\GitHub\cs399ibuy\app\build\intermediates\pre-dexed\debug\classes-04b01b21c7b032d8685d3f2cdb75d0ab56cfba5e.jar" />
+    </item>
+    <item
+        jar="C:\Users\SeanB\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\SeanB\Documents\GitHub\cs399ibuy\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-098b5d3c0f392d10921bf91415419420fcde0b83.jar" />
+    </item>
+    <item
+        jar="C:\Users\SeanB\Documents\GitHub\cs399ibuy\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\SeanB\Documents\GitHub\cs399ibuy\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-ce7523c4652ff5838524796c4df3e88eea8f6ad0.jar" />
+    </item>
+
+</items>
